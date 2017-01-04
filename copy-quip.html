@@ -3,121 +3,136 @@
 <head>
   <style>
 
-    body { margin:0; }
-    .main{
-    	float: left;
-    	width: 1263px;
-    	background: #25b4e9;
-    	color:#ffffff;
-    	font-family: Sans-serif;
-    	font-weight: bold;
-
-    
-    }
+    body { 
+      width:1263px;
+      margin:0;
+      font-family: sans-serif;
+       }
 
     .bar{
-    	height: 132px; 
-    	border:2px solid black;
+   
+    	height: 103px; 
+      background: #25b4e9;
+      color:#ffffff;
+      font-weight: bold;
+    }
+
+    .logo{
+      float: left;
+      font-size: 33px;
+      margin-left: 49px;
+      margin-top: 18px;
+
     }
 
     .bar-button{
+      font-weight: bold;
     	float: right; 
-    	margin-top:20px;
-    	height:42px; 
-    	width:70px;
-    	text-align: center;
+    	margin: 30px 0 0 0;
+    	height:40px; 
+    	width:auto;
+      margin-right: 24px;
+    	text-align: right;
     	vertical-align: middle; 
     	line-height: 42px;
-    	border: 2px solid gray; font-size: 0.7rem;
+      font-size: 0.8rem;
+     
+    }
+
+    .bar-buttonbox{
+      float: right;
     }
 
     .bar-login{
     	width :154px;
     	background: #edca38;
-    }
-
-    .logo{
-    	width: 100px; 
-    	height : 100px; 
-    	font-size: 1.8rem;
-    	border:2px solid gray;
-    }
-
-    .main-center{
-    	height: 264px;  
-    	text-align: center;
-    	vertical-align:middle;
-    	border:2px solid gray;
-    	background: red;
-    }
-
-    .center-behold{
-      height:12px;
-      line-height: 12px;
-    	background: green;
-    }
-
-    .center-TLD{
-    	height:50px;
-    	line-height:50px;
-    	background:green;
+      border-radius: 26px;
+      text-align: center;
+      margin-right:35px;
 
     }
 
-    .center-trybtn{
-    	display: table;
-    	margin: 0 auto;
-    	background:#fff;
-    	color:#3d3d3d;
-    	height:38px;
-    	line-height: 38px;
-    	border-radius: 26px;
-    	width:124px;
+     .main1{
+      float: left;
+      text-align: center;
+      width: 1263px;
+      height: 547px;
+      background: #25b4e9;
+      color:#ffffff;
+      margin:0;
     }
 
-    .center-watch{
-
-    	height : 20px;
-    	line-height: 20px;
-      background: green;
+    .main1 h5{
+      font-size: 12px;
+      letter-spacing: 4px;
+      margin-bottom: 0px;
+      margin-top: 28px;
+      font-weight: bold;
     }
 
-    .main-bottom{
-      float:left;
-    	height: 348px;  
-    	border:2px solid black;
+    .main1 h1{
+      font-size: 68px;
+      margin-bottom: 24px;
+      margin-top: 0px;
     }
+
+    .main1 p{
+      font-size: 20px;
+      margin-bottom: 30px;
+
+    }
+
+    .TINbtn{
+      display: table;
+      margin: auto;
+      text-align: center;
+      vertical-align: middle;
+      height: 36px;
+      line-height: 32px;
+      width: 124px;
+      background: #fff;
+      color: #000;
+      border-radius: 26px;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+
 
     .main-login{
+      width:1263px;
       float : left;
       text-align: center;
       height: 460px;
       background: #fff;
       color:#3d3d3d;
-      border: 2px solid green;
-      margin-bottom: 110px;
+      border-bottom: 1px solid #ecebeb;;
+   
     }
 
-    strong{
+    .main-login strong{
       color : #fc0;
       font-weight : 500;
     }
 
-    .p-start{
-      margin-top:150px;
-      height:100px;
+    .main-login h1{
+      margin-top:206px;
+      height:auto;
+      font-size: 40px;
+      font-weight: bold;
     }
 
     .loginform{
 
-      clear:left;
       display: table;
       margin: 0 auto;
       width : 480px;
       height: 63px;
       border-radius: 26px;
       background: #fff;
-      color: gray;
+      color: #9e9d9d;
+      border: 1px solid #ecebeb;
+      font-size: 16px;
     }
 
     .loginbtn{
@@ -125,30 +140,35 @@
       float:right;
       background :#fc0;
       color: #fff;
-      font: 12px;
+      font-size: 12px;
       width :152px;
       height:50px;
       border-radius: 30px;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 50px;
+      font-weight: bold;
     }
 
     .main2{
       float:left;
-      width : 940px ;
-      height : 262px;
-      padding:  : 0 15px 42px 15px;
-      margin : 0px 89px 0px 89px;
+      width : 1233px;
+      height : 376px;
+      padding: 0 15px 42px 15px;
       text-align: center;
     }
 
     .main2 h3{
+      margin-top: 110px;
       color :#25b4e9;
       font-size: 32px;
 
     }
 
     .main2 p{
-      color: #9e9d9d; 
+      color: #000; 
       font-size: 20px;
+      margin-bottom: 30px;
 
     }
 
@@ -156,26 +176,16 @@
       display: table;
       margin:auto;
       width:202px;
-      height: 31px;
+      height: 34px;
       text-align: center;
       vertical-align: middle;
       line-height: 31px;
       border-radius: 26px;
-
+      font-weight: bold;
       background: #fc0;
       font-size :12px;
       color :#fff;
      }
-
-    .main3{
-      float:left;
-      text-align: center;
-      vertical-align: middle;
-      background: #fff;
-      width:1263px;
-      height:418px;
-      border: 2px solid tomato;
-    }
 
     .stpbtn{
       text-align: center;
@@ -193,12 +203,13 @@
 
     .main3{
     float:left;
-    width:175px;
+    width:201px;
     height: 248px;
     margin-bottom: 40px;
     font-size: 16px;
-    padding: 32px 55px 32px 55px;
+    padding: 0px 55px 32px 55px;
     color: #9e9d9d;
+    border-left: 1px solid #ecebeb;
   
     }
 
@@ -213,39 +224,48 @@
     }
 
     .icon{
-
+      margin left: -30px
       width:80px;
       height:34px;
     }
 
     .main4{
-      clear:left;
-      width:1148px;
+      float:left;
+ 
+      width:1263px;
       height:851px;
-      padding:80px 80px;
       background:#25B4E9;
-      font-size: 40px;
       background: #25b4e9;
+      text-align: center;
     }
 
     .main4text{
-      float:left;
-      width:970px;
-      height:187px;
-      text-align: center;
+  
       color:#fff;
+      margin-top: 108px;
+      }
 
+    .main4text h2{
+      font-size: 38px;
     }
-    .intro{
-      font-size: 20px;
+
+     .main4text p{
+      font-size: 19px;
+
     }
 
     .main5{
-      width:1118;
+      width:1263;
       height: 1064px;
-      padding: 170px 15px 15px 0;
+      padding: 170px 0px 0px 0px;
       text-align: center;
 
+    }
+
+    .heart{
+      width: 80px;
+      height: 80px;
+      margin-top: 78px;
     }
 
     .main5 h3{
@@ -254,18 +274,21 @@
     }
 
     .customerbox{
+      margin: 0 auto;
       display: table;
       height: 230px;
-      margin: auto;
+      width: 1243px;
       margin-bottom:50px;
+      margin-right: 10px;
+      margin-left: 15px;
     }
 
     .playvideo{
       float: left;
-      width: 347px;
-      height: 230px;
+      width: 290px;
+      height: 210px;
       background: gray;
-      margin:0px 10px 20px 10px;
+      margin:0px 10px 20px 8px;
 
     }
 
@@ -273,10 +296,10 @@
       display: table;
       margin: auto;
       width: 1180px;
-      height:450px;
-      padding-bottom: 100px;
+      height:342px;
       text-align: center;
-      border-top: 1px solid gray;
+      border-top: 1px solid #ecebeb;
+
     }
 
     .companybox h5{
@@ -286,20 +309,37 @@
 
     .main6 {
       width:1263px;
-      height:300px;
+      height:692px;
       background: #f9f9f9;
+      color : #25b4e9;
       text-align: center;
-
+    
     }
 
     .main6box{
-      display: table;
-      margin: 0 auto;
+      float: left;
+      margin-top:248px;
+      width: 526px;
+      height: 300px;
+      text-align: center;
+  
+    }
+
+    .main6 h3{
+      color : #25b4e9;
+      font-size: 32px;
+      margin:0;
+    }
+
+    .main6 p{
+      margin-top: 20px;
+      margin-bottom: 40px;
+       color: #9e9d9d;
     }
 
     .main6loginform{
       display: table;
-      margin: auto;
+      margin: 0 auto;
 
     }
 
@@ -331,53 +371,42 @@
 
 
 <body>
-  	<div class="main bar">
+  	<div class="bar">
+  		<div class="logo">Quip</div>
 
-  		<div class="main logo">
-  			Quip
-  		</div>
-  				<div class="main bar-button bar-login">
-  			가입 또는 로그인
-  		</div>
-  				<div class="main bar-button">
-  			블로그
-  		</div>
-  				<div class="main bar-button">
-  			회사
-  		</div>
-  				<div class="main bar-button">
-  			요금
-  		</div>
-  				<div class="main bar-button">
-  			팀
-  		</div>
-  				<div class="main bar-button">
-  			제품
-  		</div>
-  				<div class="main bar-button">
-  			WHY QUIP?
-  		</div>
-  	</div>
+      <div class="bar-button bar-login">가입 또는 로그인</div>
 
-  	<div class="main main-center">
-  		<h5 class="center-behold">B E H O L D</h5>
-  		<h1 class="center-TLD">The Living Document</h1>
-  		<p class="center-watch">Watch your team and your work come alive</p>
-  		<div class="center-trybtn">TRY IT NOW</div>
-  	</div>
+      <div class="bar-buttonbox">
+  		
+  				<div class="bar-button">블로그</div>
+  				<div class="bar-button">회사&nbsp;</div>
+  				<div class="bar-button">요금&nbsp; </div>
+  				<div class="bar-button">팀&nbsp;&nbsp;</div>
+  				<div class="bar-button">제품&nbsp; </div>
+  				<div class="bar-button">WHY QUIP?</div>
+      </div>
+      </div>
 
-  	<div class="main main-bottom"></div>
+      <div class="main1">
+  		  <h5>BEHOLD</h5>
+  		  <h1>The Living Document</h1>
+  		  <p>Watch your team and your work come alive</p>
+  		  <div class="TINbtn">TRY IT NOW</div>
+  	  </div>
+ 
 
-  <div class="main main-login">
-    <h1 class="main main-login main-login p-start">Start getting work done faster. Sign up to try Quip for <stong>free</stong></h1>
+
+  <div class="main-login">
+    <h1>Start getting work done faster. Sign up to try Quip for <stong>free</stong></h1>
     <div class="loginform">
-    <input class="loginform" type="email" value="your work email...">
-      <div class="loginform loginbtn" value="가입 또는 로그인"></div>
+    <input class="loginform" type="email" value="&nbsp; &nbsp; &nbsp; your work email...">
+      <div class="loginbtn">가입 또는 로그인</div>
       </div>
       </div>
 
   <div class="main2">
-    <h3>Quip is where you create, document, discuss, and organize the stuff that your team works on. </h3>
+    <h3>Quip is where you create, document, discuss, and<br>
+    organize the stuff that your team works on. </h3>
     <p>In Quip, the content of your document becomes the comunication.</p>
     <div class="seebtn">SEE THE PRODUCT TOUR</div>
     </div>
@@ -390,36 +419,35 @@
 
   <div class="main3">
     <img src="icon-centralize.png" class="icon">
-    <h5>c e n t r a l i z e</h5>
-    <p>Every document has a chat thread. Talk directly inside of a document without ever going into your inbox.</p>
+    <h5>C E N T R A L I Z E</h5>
+    <p>One place for teams to organize and manage their work, with history and context captured.</p>
   </div>
 
   <div class="main3">
     <img src="icon-connect.png" class="icon">
-    <h5>c o n n e c t</h5>
-    <p>Documents, spreadsheets and checlists to share ideas and edit in real-time. Work online or offline.</p>
+    <h5>C O N N E C T</h5>
+    <p>Every document has a chat thread. Talk directly inside of a document without ever going into your inbox.</p>
   </div>
 
   <div class="main3">
     <img src="icon-know.png" class="icon">
-    <h5>k n o w</h5>
+    <h5>K N O W</h5>
     <p>Work perfectly on mobile and tablet devices and uses smart notifications to keep you updated on what is happening.</p>
   </div>
 
   <div class="main4">
   <div class="main4text">
-    <h2>Quip for teams</h2>
-    <p class="intro">Quip helps teams and companies all sizes be more connected, productive, and innovate. Many of today;s forward-thinking companies - Facebook, CNN, Pinterest - use Quip to help them get more done.</p>
+    <h2>Quip for Teams</h2>
+    <p>Quip helps teams and companies all sizes be more connected, productive, and innovate. Many of <br>today's forward-thinking companies - Facebook, CNN, Pinterest - use Quip to help them get more done.</p>
   </div>
   </div>
 
   <div class="main5">
+    <image src="heart.png" class="heart">
     <h3> Hear what our customers love about Quip.</h3>
     <div class="customerbox">
       <div class="playvideo"></div>
       <div class="playvideo"></div>
-    </div>
-    <div class="customerbox">
       <div class="playvideo"></div>
       <div class="playvideo"></div>
     </div>
@@ -430,10 +458,10 @@
   <div class="main6">
   <div class="main6box">
     <h3>we get it. Change is hard.</h3>
-    <h>Quip is the perfect tool for your next initiative. Start kicking our tires today. Only start paying us if you love it.</h>
-    <div class="main6loginform">
-      <input type="email" class="main6login" value="your work email...">
-      <button type="submit" class="main6loginbtn">가입 또는 로그인</button>
+    <p>Quip is the perfect tool for your next initiative. Start kicking our<br> tires today. Only start paying us if you love it.</p>
+      <div class="loginform">
+      <input class="loginform" type="email" value="&nbsp; &nbsp; &nbsp; your work email...">
+      <div class="loginbtn">가입 또는 로그인</div>
     </div>
   </div>
   </div>
