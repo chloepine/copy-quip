@@ -7,15 +7,20 @@
       width:1263px;
       margin:0;
       font-family: sans-serif;
-       }
+    }
 
     .bar{
-   
     	height: 103px; 
       background: #25b4e9;
       color:#ffffff;
       font-weight: bold;
     }
+
+    .bar a{
+      text-decoration:none !important;
+      color: inherit;
+    }
+
 
     .logo{
       float: left;
@@ -31,12 +36,11 @@
     	margin: 30px 0 0 0;
     	height:40px; 
     	width:auto;
-      margin-right: 24px;
+      margin-right: 26px;
     	text-align: right;
     	vertical-align: middle; 
     	line-height: 42px;
       font-size: 0.8rem;
-     
     }
 
     .bar-buttonbox{
@@ -45,7 +49,7 @@
 
     .bar-login{
     	width :154px;
-    	background: #edca38;
+    	background: #fc0; /*#edca38;*/
       border-radius: 26px;
       text-align: center;
       margin-right:35px;
@@ -61,6 +65,12 @@
       color:#ffffff;
       margin:0;
     }
+
+    .main1 a{
+      text-decoration:none !important;
+      color: inherit;
+    }
+
 
     .main1 h5{
       font-size: 12px;
@@ -98,7 +108,6 @@
     }
 
 
-
     .main-login{
       width:1263px;
       float : left;
@@ -106,13 +115,18 @@
       height: 460px;
       background: #fff;
       color:#3d3d3d;
-      border-bottom: 1px solid #ecebeb;;
+      border-bottom: 1px solid #ecebeb;
    
     }
 
-    .main-login strong{
+    .loginbtn a{
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .free{
       color : #fc0;
-      font-weight : 500;
+      
     }
 
     .main-login h1{
@@ -123,9 +137,9 @@
     }
 
     .loginform{
-
       display: table;
       margin: 0 auto;
+      position: relative;
       width : 480px;
       height: 63px;
       border-radius: 26px;
@@ -137,7 +151,6 @@
 
     .loginbtn{
       position:absolute;
-      float:right;
       background :#fc0;
       color: #fff;
       font-size: 12px;
@@ -187,19 +200,12 @@
       color :#fff;
      }
 
-    .stpbtn{
-      text-align: center;
-      display: table;
-      margin: 0 auto;
-      width:206px;
-      height:35px;
-      line-height: 35px;
-      background :#fc0;
-      color: #fff;
-      font: 12px;
-      border-radius: 30px;
-      border : 2px solid blue;
+    .seebtn a{
+      text-decoration: none;
+      color : inherit;
     }
+
+
 
     .main3{
     float:left;
@@ -360,6 +366,11 @@
       background: #fc0;
 
     }
+
+    .main6loginbtn a{
+      text-decoration: none;
+      color: inherit;
+    }
   
 
 
@@ -371,51 +382,51 @@
 
 
 <body>
-  	<div class="bar">
-  		<div class="logo">Quip</div>
+  <div class="bar">
+  	<div class="logo"><a href="https://github.com/chloepine/">Quip</a></div>
+    <div class="bar-button bar-login"><a href="https://github.com/chloepine/">가입 또는 로그인</a></div>
+    <div class="bar-buttonbox">
+  		<div class="bar-button"><a href="https://github.com/chloepine/">블로그</a></div>
+  		<div class="bar-button"><a href="https://github.com/chloepine/">회사&nbsp;</a></div>
+  		<div class="bar-button"><a href="https://github.com/chloepine/">요금&nbsp; </a></div>
+  		<div class="bar-button"><a href="https://github.com/chloepine/">팀&nbsp;&nbsp;</a></div>
+  		<div class="bar-button"><a href="https://github.com/chloepine/">제품&nbsp; </a></div>
+  		<div class="bar-button"><a href="https://github.com/chloepine/">WHY QUIP?</a></div>
+    </div>
+  </div>
 
-      <div class="bar-button bar-login">가입 또는 로그인</div>
 
-      <div class="bar-buttonbox">
-  		
-  				<div class="bar-button">블로그</div>
-  				<div class="bar-button">회사&nbsp;</div>
-  				<div class="bar-button">요금&nbsp; </div>
-  				<div class="bar-button">팀&nbsp;&nbsp;</div>
-  				<div class="bar-button">제품&nbsp; </div>
-  				<div class="bar-button">WHY QUIP?</div>
-      </div>
-      </div>
-
-      <div class="main1">
-  		  <h5>BEHOLD</h5>
-  		  <h1>The Living Document</h1>
-  		  <p>Watch your team and your work come alive</p>
-  		  <div class="TINbtn">TRY IT NOW</div>
-  	  </div>
+  <div class="main1">
+  	<h5>BEHOLD</h5>
+  	<h1>The Living Document</h1>
+  	<p>Watch your team and your work come alive</p>
+  	<div class="TINbtn"><a href="https://github.com/chloepine/">TRY IT NOW</a></div>
+  </div>
  
 
-
   <div class="main-login">
-    <h1>Start getting work done faster. Sign up to try Quip for <stong>free</stong></h1>
+    <h1>Start getting work done faster. Sign up to try Quip for <span class="free">free</span></h1>
     <div class="loginform">
-    <input class="loginform" type="email" value="&nbsp; &nbsp; &nbsp; your work email...">
-      <div class="loginbtn">가입 또는 로그인</div>
-      </div>
-      </div>
+      <input class="loginform" type="email" value="&nbsp; &nbsp; &nbsp; your work email...">
+      <div class="loginbtn"><a href="https://github.com/chloepine/">가입 또는 로그인</a></div>
+    </div>
+  </div>
+
 
   <div class="main2">
     <h3>Quip is where you create, document, discuss, and<br>
     organize the stuff that your team works on. </h3>
     <p>In Quip, the content of your document becomes the comunication.</p>
-    <div class="seebtn">SEE THE PRODUCT TOUR</div>
-    </div>
+    <div class="seebtn"><a href="https://github.com/chloepine/">SEE THE PRODUCT TOUR</a></div>
+  </div>
+
 
   <div class="main3">
     <img src="icon-pen.png" class="icon">
     <h5>만 들 기</h5>
     <p>Documents, spreadsheets and checlists to share ideas and edit in real-time. Work online or offline.</p>
   </div>
+
 
   <div class="main3">
     <img src="icon-centralize.png" class="icon">
@@ -435,15 +446,16 @@
     <p>Work perfectly on mobile and tablet devices and uses smart notifications to keep you updated on what is happening.</p>
   </div>
 
+
   <div class="main4">
-  <div class="main4text">
-    <h2>Quip for Teams</h2>
-    <p>Quip helps teams and companies all sizes be more connected, productive, and innovate. Many of <br>today's forward-thinking companies - Facebook, CNN, Pinterest - use Quip to help them get more done.</p>
-  </div>
+    <div class="main4text">
+      <h2>Quip for Teams</h2>
+      <p>Quip helps teams and companies all sizes be more connected, productive, and innovate. Many of <br>today's forward-thinking companies - Facebook, CNN, Pinterest - use Quip to help them get more done.</p>
+    </div>
   </div>
 
   <div class="main5">
-    <image src="heart.png" class="heart">
+    <image src="heart.png" class="heart"></image>
     <h3> Hear what our customers love about Quip.</h3>
     <div class="customerbox">
       <div class="playvideo"></div>
@@ -451,24 +463,24 @@
       <div class="playvideo"></div>
       <div class="playvideo"></div>
     </div>
-    <div class="companybox">
-    <h5>MORE COMPANY WHO LOVE QUIP</h5>
     </div>
+
+
+  <div class="companybox">
+      <h5>MORE COMPANY WHO LOVE QUIP</h5>
+  </div>
+
   
   <div class="main6">
-  <div class="main6box">
-    <h3>we get it. Change is hard.</h3>
-    <p>Quip is the perfect tool for your next initiative. Start kicking our<br> tires today. Only start paying us if you love it.</p>
+    <div class="main6box">
+      <h3>we get it. Change is hard.</h3>
+      <p>Quip is the perfect tool for your next initiative. Start kicking our<br> tires today. Only start paying us if you love it.</p>
       <div class="loginform">
-      <input class="loginform" type="email" value="&nbsp; &nbsp; &nbsp; your work email...">
-      <div class="loginbtn">가입 또는 로그인</div>
+        <input class="loginform" type="email" value="&nbsp; &nbsp; &nbsp; your work email...">
+        <div class="loginbtn"><a href="https://github.com/chloepine/">가입 또는 로그인</a></div>
+      </div>
     </div>
   </div>
-  </div>
 
-
-
-
-
-  
+</body>
 </html>
