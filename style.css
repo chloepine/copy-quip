@@ -37,6 +37,7 @@
     	vertical-align: middle; 
     	line-height: 42px;
       font-size: 0.8rem;
+      border: 1px solid black;
     }
 
     .bar-buttonbox{
@@ -136,13 +137,14 @@
       display: table;
       margin: 0 auto;
       position: relative;
-      width : 480px;
+      width : 465px;
       height: 63px;
       border-radius: 26px;
       background: #fff;
       color: #9e9d9d;
       border: 1px solid #ecebeb;
       font-size: 16px;
+      padding-left: 15px;
     }
 
     .loginbtn{
