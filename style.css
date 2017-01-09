@@ -1,0 +1,375 @@
+﻿
+    body{ 
+      width:1263px;
+      margin:0;
+      font-family: sans-serif;
+    }
+
+    .bar{
+    	height: 103px; 
+      background: #25b4e9;
+      color:#ffffff;
+      font-weight: bold;
+    }
+
+    .barclass{
+      text-decoration:none !important;
+      color: inherit;
+    }
+
+
+    .logo{
+      float: left;
+      font-size: 33px;
+      margin-left: 49px;
+      margin-top: 18px;
+
+    }
+
+    .bar-button{
+      font-weight: bold;
+    	float: right; 
+    	margin: 30px 0 0 0;
+    	height:40px; 
+    	width:auto;
+      margin-right: 26px;
+    	text-align: right;
+    	vertical-align: middle; 
+    	line-height: 42px;
+      font-size: 0.8rem;
+    }
+
+    .bar-buttonbox{
+      float: right;
+    }
+
+    .bar-login{
+    	width :154px;
+    	background: #fc0; /*#edca38;*/
+      border-radius: 26px;
+      text-align: center;
+      margin-right:35px;
+
+    }
+
+     .main1{
+      float: left;
+      text-align: center;
+      width: 1263px;
+      height: 547px;
+      background: #25b4e9;
+      color:#ffffff;
+      margin:0;
+    }
+
+    .main1link{
+      text-decoration:none !important;
+      color: inherit;
+    }
+
+
+    .main1 h5{
+      font-size: 12px;
+      letter-spacing: 4px;
+      margin-bottom: 0px;
+      margin-top: 28px;
+      font-weight: bold;
+    }
+
+    .main1 h1{
+      font-size: 68px;
+      margin-bottom: 24px;
+      margin-top: 0px;
+    }
+
+    .main1 p{
+      font-size: 20px;
+      margin-bottom: 30px;
+
+    }
+
+    .TINbtn{
+      display: table;
+      margin: auto;
+      text-align: center;
+      vertical-align: middle;
+      height: 36px;
+      line-height: 32px;
+      width: 124px;
+      background: #fff;
+      color: #000;
+      border-radius: 26px;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+
+    .main-login{
+      width:1263px;
+      float : left;
+      text-align: center;
+      height: 460px;
+      background: #fff;
+      color:#3d3d3d;
+      border-bottom: 1px solid #ecebeb;
+   
+    }
+
+    .loginbtnlink {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .free{
+      color : #fc0;
+      
+    }
+
+    .main-login h1{
+      margin-top:206px;
+      height:auto;
+      font-size: 40px;
+      font-weight: bold;
+    }
+
+    .loginform{
+      display: table;
+      margin: 0 auto;
+      position: relative;
+      width : 480px;
+      height: 63px;
+      border-radius: 26px;
+      background: #fff;
+      color: #9e9d9d;
+      border: 1px solid #ecebeb;
+      font-size: 16px;
+    }
+
+    .loginbtn{
+      position:absolute;
+      background :#fc0;
+      color: #fff;
+      font-size: 12px;
+      width :152px;
+      height:50px;
+      border-radius: 30px;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 50px;
+      font-weight: bold;
+    }
+
+    .main2{
+      float:left;
+      width : 1233px;
+      height : 376px;
+      padding: 0 15px 42px 15px;
+      text-align: center;
+    }
+
+    .main2 h3{
+      margin-top: 110px;
+      color :#25b4e9;
+      font-size: 32px;
+
+    }
+
+    .main2 p{
+      color: #000; 
+      font-size: 20px;
+      margin-bottom: 30px;
+
+    }
+
+    .seebtn{
+      display: table;
+      margin:auto;
+      width:202px;
+      height: 34px;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 31px;
+      border-radius: 26px;
+      font-weight: bold;
+      background: #fc0;
+      font-size :12px;
+      color :#fff;
+     }
+
+    .seebtnlink{
+      text-decoration: none;
+      color : inherit;
+    }
+
+
+
+    .main3{
+    float:left;
+    width:201px;
+    height: 248px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    padding: 0px 55px 32px 55px;
+    color: #9e9d9d;
+    border-left: 1px solid #ecebeb;
+  
+    }
+
+    
+
+    .main3 h5{
+      color: rgb(37, 180, 233);
+      font-size: 12px;
+      width: 177px;
+      height: 15px;
+
+    }
+
+    .icon{
+      margin left: -30px
+      width:80px;
+      height:34px;
+    }
+
+    .main4{
+      float:left;
+ 
+      width:1263px;
+      height:851px;
+      background:#25B4E9;
+      background: #25b4e9;
+      text-align: center;
+    }
+
+    .main4text{
+  
+      color:#fff;
+      margin-top: 108px;
+      }
+
+    .main4text h2{
+      font-size: 38px;
+    }
+
+     .main4text p{
+      font-size: 19px;
+
+    }
+
+    .main5{
+      width:1263;
+      height: 1064px;
+      padding: 170px 0px 0px 0px;
+      text-align: center;
+
+    }
+
+    .heart{
+      width: 80px;
+      height: 80px;
+      margin-top: 78px;
+    }
+
+    .main5 h3{
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    .customerbox{
+      margin: 0 auto;
+      display: table;
+      height: 230px;
+      width: 1243px;
+      margin-bottom:50px;
+      margin-right: 10px;
+      margin-left: 15px;
+    }
+
+    .playvideo{
+      float: left;
+      width: 290px;
+      height: 210px;
+      background: gray;
+      margin:0px 10px 20px 8px;
+
+    }
+
+    .companybox{
+      display: table;
+      margin: auto;
+      width: 1180px;
+      height:342px;
+      text-align: center;
+      border-top: 1px solid #ecebeb;
+
+    }
+
+    .companybox h5{
+      letter-spacing: 4px;
+
+    }
+
+    .main6 {
+      width:1263px;
+      height:692px;
+      background: #f9f9f9;
+      color : #25b4e9;
+      text-align: center;
+    
+    }
+
+    .main6box{
+      float: left;
+      margin-top:248px;
+      width: 526px;
+      height: 300px;
+      text-align: center;
+  
+    }
+
+    .main6 h3{
+      color : #25b4e9;
+      font-size: 32px;
+      margin:0;
+    }
+
+    .main6 p{
+      margin-top: 20px;
+      margin-bottom: 40px;
+       color: #9e9d9d;
+    }
+
+    .main6loginform{
+      display: table;
+      margin: 0 auto;
+
+    }
+
+    .main6login{
+      width: 480px;
+      height: 60px;
+      border-radius: 30px;
+      background: #fff;
+
+
+    }
+
+    .main6loginbtn{
+      position: absolute;
+      width: 152px;
+      height: 50px;
+      border-radius: 26px;
+      background: #fc0;
+
+    }
+
+    .main6loginbtnlink{
+      text-decoration: none;
+      color: inherit;
+    }
+  
+
+
+
+  
+
