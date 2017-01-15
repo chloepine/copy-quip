@@ -331,6 +331,7 @@
     }
 
     .main6 {
+      float: left;
       width:1263px;
       height:692px;
       background: #f9f9f9;
@@ -362,8 +363,8 @@
 
     
 
-    .login6loginoutter{
-      background:#fffffff;
+    .main6loginoutter{
+   
       width : 450px;
       height: 55px;
       border-radius: 26px;
@@ -376,10 +377,11 @@
       padding-right: 6px;
       padding-top: 6px;
       padding-bottom: 2px;
+      margin-left: 40px;
 
     }
 
-    .login6loginform{
+    .main6loginform{
       float:left;
       width : 250px;
       height: 50px;
@@ -392,7 +394,7 @@
       margin: 0;
     }
 
-    .login6loginbtn{
+    .main6loginbtn{
       float:right;
       background :#fc0;
       color: #fff;
