@@ -132,22 +132,40 @@
       font-weight: bold;
     }
 
-    .loginform{
+    .loginoutter{
+      color:inherit;
       display: table;
       margin: 0 auto;
-      position: relative;
-      width : 465px;
-      height: 63px;
+      width : 450px;
+      height: 55px;
       border-radius: 26px;
       background: #fff;
       color: #9e9d9d;
       border: 1px solid #ecebeb;
       font-size: 16px;
       padding-left: 15px;
+      text-align: center;
+      padding-right: 6px;
+      padding-top: 6px;
+      padding-bottom: 2px;
+
+    }
+
+    .loginform{
+      float:left;
+      width : 250px;
+      height: 50px;
+      border-radius: 26px;
+      background: #fff;
+      color: #9e9d9d;
+      font-size: 16px;
+      padding-left: 15px;
+      border:0;
+      margin: 0;
     }
 
     .loginbtn{
-      position:absolute;
+      float:right;
       background :#fc0;
       color: #fff;
       font-size: 12px;
@@ -158,6 +176,8 @@
       vertical-align: middle;
       line-height: 50px;
       font-weight: bold;
+      float:right;
+
     }
 
     .main2{
@@ -340,36 +360,53 @@
        color: #9e9d9d;
     }
 
-    .main6loginform{
-      display: table;
-      margin: 0 auto;
+    
 
-    }
-
-    .main6login{
-      width: 480px;
-      height: 60px;
-      border-radius: 30px;
+    .login6loginoutter{
+      background:#fffffff;
+      width : 450px;
+      height: 55px;
+      border-radius: 26px;
       background: #fff;
-
+      color: #9e9d9d;
+      border: 1px solid #ecebeb;
+      font-size: 16px;
+      padding-left: 15px;
+      text-align: center;
+      padding-right: 6px;
+      padding-top: 6px;
+      padding-bottom: 2px;
 
     }
 
-    .main6loginbtn{
-      position: absolute;
-      width: 152px;
+    .login6loginform{
+      float:left;
+      width : 250px;
       height: 50px;
       border-radius: 26px;
-      background: #fc0;
-
+      background: #fff;
+      color: #9e9d9d;
+      font-size: 16px;
+      padding-left: 15px;
+      border:0;
+      margin: 0;
     }
 
-    .main6loginbtnlink{
-      text-decoration: none;
-      color: inherit;
-    }
-  
+    .login6loginbtn{
+      float:right;
+      background :#fc0;
+      color: #fff;
+      font-size: 12px;
+      width :152px;
+      height:50px;
+      border-radius: 30px;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 50px;
+      font-weight: bold;
+    
 
+    }
 
 
   
